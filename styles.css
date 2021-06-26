@@ -1,0 +1,84 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+section{
+    border: 2px solid black;
+    padding: 20px;
+    Margin: 20px;
+}
+
+.colour div {
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.colour p {
+    font-size: 20px;
+    text-align: center;
+    margin: 14px auto;
+    font-weight: bold;
+}
+
+div.red {
+    background-color: #a7001c;
+}
+
+div.blue {
+    background-color: #110f88;
+    color: white;
+}
+
+div.purple {
+    background-color: #820ea5;
+    color: white;
+}
+div.green {
+    background-color: #058d27;
+}
+
+.font div {
+    display: inline-block;
+    width: 450px;
+}
+
+.merriweather p {
+    font-family: 'Merriweather', serif;
+}
+
+.varela p {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.fira p {
+    font-family: 'Fira Code', monospace;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.code {
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+}
